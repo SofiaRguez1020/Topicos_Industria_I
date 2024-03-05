@@ -321,7 +321,8 @@ dashboard = pn.Row(
                  width= 380,
                  height = 500, align = 'center'),
     pn.Column(plot_traj, width = 500,height = 500, align='center'),
-    pn.Column(plot_metric, width = 500,height = 500, align='center')
+    pn.Column(plot_metric, width = 500,height = 500, align='center'),
+    margin=100
 )
 
 #Show dashboard embedded in colan
